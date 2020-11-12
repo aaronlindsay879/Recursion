@@ -12,6 +12,7 @@ namespace Recursion
         /// </summary>
         /// <param name="n">Upper limit of summation</param>
         /// <returns>1 + 2 + ... + <paramref name="n"/></returns>
+        /// <exception cref="ArgumentException">Thrown when <paramref name="n"/> below 1</exception>
         public static int Sum(int n)
         {
             if (n < 1)

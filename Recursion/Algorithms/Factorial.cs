@@ -12,6 +12,7 @@ namespace Recursion
         /// </summary>
         /// <param name="n">Int to find factorial of</param>
         /// <returns>Factorial of <paramref name="n"/></returns>
+        /// <exception cref="ArgumentException">Thrown when <paramref name="n"/> below 1</exception>
         public static int Factorial(int n)
         {
             if (n < 1)

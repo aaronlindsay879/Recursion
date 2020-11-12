@@ -12,6 +12,7 @@ namespace Recursion
         /// </summary>
         /// <param name="n">Position of fibonacci number to find</param>
         /// <returns>Fibonnaci number at <paramref name="n"/></returns>
+        /// <exception cref="ArgumentException">Thrown when <paramref name="n"/> below 1</exception>
         public static int Fibonacci(int n)
         {
             if (n < 1)

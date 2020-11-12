@@ -13,6 +13,7 @@ namespace Recursion
         /// <param name="y">Base</param>
         /// <param name="n">Exponent</param>
         /// <returns><paramref name="y"/>^<paramref name="n"/></returns>
+        /// <exception cref="ArgumentException">Thrown when <paramref name="n"/> below 1</exception>
         public static int Power(int y, int n)
         {
             if (n < 1)

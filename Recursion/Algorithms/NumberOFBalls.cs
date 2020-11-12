@@ -12,6 +12,7 @@ namespace Recursion
         /// </summary>
         /// <param name="sideLength">Length of one side of triangle</param>
         /// <returns>Number of balls in triangle</returns>
+        /// <exception cref="ArgumentException">Thrown when <paramref name="sideLength"/> below 1</exception>
         public static int NoOfBallsInTriangle(int sideLength) => Sum(sideLength);
 
         /// <summary>
@@ -20,6 +21,7 @@ namespace Recursion
         /// </summary>
         /// <param name="sideLength">Length of one side of pyramid</param>
         /// <returns>Number of balls in pyramid</returns>
+        /// <exception cref="ArgumentException">Thrown when <paramref name="sideLength"/> below 1</exception>
         public static int NoOfBallsInPyramid(int sideLength)
         {
             if (sideLength < 1)
