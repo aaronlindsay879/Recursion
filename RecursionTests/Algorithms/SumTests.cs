@@ -7,7 +7,7 @@ using System.Text;
 namespace Recursion.Tests
 {
     [TestClass()]
-    public class AlgorithmsTests
+    public class SumTests
     {
         [DataTestMethod]
         [DataRow(1, 1)]
