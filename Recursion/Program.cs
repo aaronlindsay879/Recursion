@@ -6,7 +6,7 @@ namespace Recursion
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine($"Example sum: Sum(10) = {Algorithms.Sum(10)}");
         }
     }
 }
