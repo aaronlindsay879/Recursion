@@ -6,6 +6,13 @@ namespace Recursion
 {
     public static partial class Algorithms
     {
+        /// <summary>
+        /// Calculates <paramref name="y"/>^<paramref name="n"/> <br/>
+        /// Works by multiplying <paramref name="y"/> (the base) by <paramref name="y"/>^(<paramref name="n"/> - 1)
+        /// </summary>
+        /// <param name="y">Base</param>
+        /// <param name="n">Exponent</param>
+        /// <returns><paramref name="y"/>^<paramref name="n"/></returns>
         public static int Power(int y, int n)
         {
             if (n < 1)

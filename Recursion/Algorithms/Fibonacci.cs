@@ -6,6 +6,12 @@ namespace Recursion
 {
     public static partial class Algorithms
     {
+        /// <summary>
+        /// Calculates the fibonnaci number at position <paramref name="n"/> <br/>
+        /// Works by summing the fibonnaci numbers one and two below <paramref name="n"/>, using base cases of 1,1 and 2,1
+        /// </summary>
+        /// <param name="n">Position of fibonacci number to find</param>
+        /// <returns>Fibonnaci number at <paramref name="n"/></returns>
         public static int Fibonacci(int n)
         {
             if (n < 1)

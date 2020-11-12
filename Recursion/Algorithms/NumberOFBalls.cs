@@ -7,8 +7,8 @@ namespace Recursion
     public static partial class Algorithms
     {
         /// <summary>
-        /// This method simply leads to summing from 1 to sideLength
-        /// You remove one side from the triangle (n) and then add that to the area of the remaining triangle, which is 1 sideLength shorter
+        /// This method simply leads to summing from 1 to <paramref name="sideLength"/> <br/>
+        /// You remove one side from the triangle (<paramref name="sideLength"/>) and then add that to the area of the remaining triangle, which has a length of <paramref name="sideLength"/> - 1
         /// </summary>
         /// <param name="sideLength">Length of one side of triangle</param>
         /// <returns>Number of balls in triangle</returns>
